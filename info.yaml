@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Asynchronous Linear Feedbak Shift Register"      # Project title
+  title:        "Asynchronous Linear Feedback Shift Register"      # Project title
   author:       "Maximiliam Luppe"      # Your name
   discord:      "maxluppe"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "This project implements a LFSR with configurable delay lines instead of Registers to act as a chaotic oscilator"      # One line description of what your project does
+  description:  "This project implements a LFSR with configurable delay lines, instead of Registers, to act as a chaotic oscillator"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,7 +15,7 @@ project:
   
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
-    - "project.v"
+    - "tt_um_maxluppe_alfsr.v"
     - "alfsr.v"
     - "modules.v"
 
