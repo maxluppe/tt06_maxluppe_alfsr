@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt_um_maxluppe_alfsr.v alfsr.v delay_line.v
+PROJECT_SOURCES = tt_um_maxluppe_alfsr.v alfsr.v delay_line.v modules.v
 
 ifneq ($(GATES),yes)
 
