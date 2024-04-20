@@ -25,7 +25,6 @@ wire	nx110;
 wire	nx111;
 wire	nx112;
 wire	nx113;
-wire	nx114;
 
 buf02	b2v_ix100(
 	.A(line_in),
