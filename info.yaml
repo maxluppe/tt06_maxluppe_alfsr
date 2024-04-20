@@ -17,6 +17,7 @@ project:
   source_files:        
     - "tt_um_maxluppe_alfsr.v"
     - "alfsr.v"
+    - "delay_line.v"
     - "modules.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
