@@ -26,7 +26,7 @@ module tt_um_maxluppe_alfsr (
                   .alfsr_rst_n(ui_in[1]),	//ALFSR reset
                   .lfsr_out(uo_out[6]),		//LFSR Configuratior output
                   .rng_out_d(uo_out[5]),	//ALFSR 'digitalized' output
-                  .rng_outuot(ou_out[3:0])	//ALFSR 'analog' outputs
+                  .rng_outuot(uo_out[3:0])	//ALFSR 'analog' outputs
     );
 
     assign uo_out[4] = 0;
