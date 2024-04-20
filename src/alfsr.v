@@ -134,7 +134,7 @@ delay_line delay_line_2 (
 	.s0(nx24),			//Delay Line selection input s0
 	.s1(nx25),			//Delay Line selection input s1
 	.s2(nx27),			//Delay Line selection input s2
-	.line_out(nx142));	//Delay Line output
+	.line_out(nx128));	//Delay Line output
 
 delay_line delay_line_1 (
 	.line_in(nx128),	//Delay Line input
