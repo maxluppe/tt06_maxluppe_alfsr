@@ -19,6 +19,12 @@ project:
     - "alfsr.v"
     - "delay_line.v"
     - "modules.v"
+    - "commum.v"
+    - "NIST01.v"
+    - "NIST02.v"
+    - "NIST03.v"
+    - "NIST04.v"
+    - "NIST_SP_800_22.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
@@ -37,14 +43,14 @@ pinout:
   uo[1]: "ALFSR _analog_ output 1"
   uo[2]: "ALFSR _analog_ output 2"
   uo[3]: "ALFSR _analog_ output 3"
-  uo[4]: ""
-  uo[5]: "ALFSR _digitalized_ output 3"
-  uo[6]: "LFSR Configuratior output"
-  uo[7]: ""
+  uo[4]: "ALFSR _digitalized_ output 3"
+  uo[5]: "LFSR Configuratior output"
+  uo[6]: "NIST 01 test output"
+  uo[7]: "NIST 02 test output"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
+  uio[0]: "NIST 03 test output"
+  uio[1]: "NIST 04 test output"
   uio[2]: ""
   uio[3]: ""
   uio[4]: ""
